@@ -100,7 +100,13 @@ a {
     padding-right: 1rem;
 }
 
+.main-content {
+    padding: 5rem 0;
+}
+
 header {
+    border-bottom: 1px solid #eee;
+
     nav {
         font-size: 0.85rem;
 
@@ -278,9 +284,11 @@ footer {
     z-index: 1;
     background: #333;
 }
+
 footer.main-block {
     padding: 100px 0 60px;
 }
+
 .location {
     @media (max-width: 992px) {
         text-align: center;
