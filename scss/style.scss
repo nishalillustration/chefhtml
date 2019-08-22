@@ -374,3 +374,17 @@ footer.main-block {
         }
     }
 }
+
+/* ==============================================================
+   inner pages
+   ============================================================== */
+.nav-tabs .nav-link {
+    color: #333;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background: #e61d1d;
+    border-color: #e61d1d;
+}
