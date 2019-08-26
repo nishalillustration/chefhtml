@@ -214,18 +214,38 @@
         right: 0;
     }
 
-    .hb .carousel-caption {
-        padding-bottom: 5% !important;
+    .hb .carousel-caption, .ib .carousel-caption{
+        margin-bottom: 0;
+        h1{
+            font-size: 22px;
+        }
     }
-    .about-monials{
-    top: -5%;
+        .carousel-caption {
+            padding-bottom: 5% !important;
+            position: inherit;
+            bottom: 0;
+            margin-bottom: 0;
+            left: 0;
+            right: 0;
+            color: #333;
+        }
+
+
+    .about-monials {
+        top: -5%;
     }
-    .hb .map-relative{
+
+    .hb .map-relative {
         display: none;
     }
 }
 
 @media (max-width: 991.98px) {
+    .plr-5 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
     .hb .carousel-caption {
         padding-bottom: 15%;
     }
@@ -250,6 +270,9 @@
         width: 100%;
         padding: 5rem;
         top: 0;
+    }
+     .hb .carousel-caption, .ib .carousel-caption{
+        margin-bottom: 0;
     }
 }
 
