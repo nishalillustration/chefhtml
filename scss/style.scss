@@ -246,12 +246,12 @@ header {
 }
 
 .howit-img-block {
-    width: 86px;
-    height: 86px;
-    border: 1px solid #bf2026;
-    background: #fff;
-    border-radius: 50%;
-    padding: 22px;
+//    width: 86px;
+//    height: 86px;
+//    border: 1px solid #bf2026;
+//    background: #fff;
+//    border-radius: 50%;
+    padding: 10px;
     margin: 0 auto;
     display: block;
 }
@@ -538,4 +538,7 @@ footer.main-block {
     color: #fff;
     background: #e61d1d;
     border-color: #e61d1d;
+}
+.owl-nav{
+    display: none;
 }

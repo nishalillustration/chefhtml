@@ -181,6 +181,14 @@
 
 }
 
+@media (max-width: 324px) {
+
+    .hb .carousel-caption h1,
+    .ib .carousel-caption h1 {
+        display: none;
+    }
+}
+
 @media (max-width: 575.98px) {}
 
 @media (max-width: 767.98px) {
@@ -224,13 +232,11 @@
     }
 
     .carousel-caption {
-        padding-bottom: 5% !important;
-        position: inherit;
         bottom: 0;
         margin-bottom: 0;
         left: 0;
         right: 0;
-        color: #333;
+        padding-bottom: 0 !important;
     }
 
 
