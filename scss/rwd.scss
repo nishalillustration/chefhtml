@@ -214,21 +214,24 @@
         right: 0;
     }
 
-    .hb .carousel-caption, .ib .carousel-caption{
+    .hb .carousel-caption,
+    .ib .carousel-caption {
         margin-bottom: 0;
-        h1{
+
+        h1 {
             font-size: 22px;
         }
     }
-        .carousel-caption {
-            padding-bottom: 5% !important;
-            position: inherit;
-            bottom: 0;
-            margin-bottom: 0;
-            left: 0;
-            right: 0;
-            color: #333;
-        }
+
+    .carousel-caption {
+        padding-bottom: 5% !important;
+        position: inherit;
+        bottom: 0;
+        margin-bottom: 0;
+        left: 0;
+        right: 0;
+        color: #333;
+    }
 
 
     .about-monials {
@@ -237,6 +240,14 @@
 
     .hb .map-relative {
         display: none;
+    }
+
+    .chef-list-wrap .chef-list-hold .chef-list h3.price {
+        text-align: left;
+    }
+
+    footer.main-block {
+        padding: 60px 0 60px;
     }
 }
 
@@ -271,7 +282,9 @@
         padding: 5rem;
         top: 0;
     }
-     .hb .carousel-caption, .ib .carousel-caption{
+
+    .hb .carousel-caption,
+    .ib .carousel-caption {
         margin-bottom: 0;
     }
 }

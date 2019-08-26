@@ -201,11 +201,12 @@ header {
 
         .chef-list:hover:after {}
     }
-    .card-header{
-        a{
+
+    .card-header {
+        a {
             color: #bf2026;
         }
-        
+
     }
 }
 
@@ -247,7 +248,7 @@ header {
 .howit-img-block {
     width: 86px;
     height: 86px;
-    border: 1px solid #ff6b6b;
+    border: 1px solid #bf2026;
     background: #fff;
     border-radius: 50%;
     padding: 22px;
@@ -261,7 +262,7 @@ header {
 }
 
 .howit-icon-wrap:hover .howit-img-block {
-    background: #ff6b6b;
+    background: #bf2026;
 }
 
 .howit-icon-wrap:hover .howit-svg path {
@@ -279,7 +280,7 @@ header {
         transition: 0.3s;
 
         &:hover {
-            color: #ff6b6b;
+            color: #bf2026;
         }
     }
 }
