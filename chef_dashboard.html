@@ -70,6 +70,10 @@
                             <a class="nav-item nav-link active" id="one-tab" data-toggle="tab" href="#nav-one" role="tab" aria-controls="nav-one" aria-selected="true">Add Dish</a>
                             <a class="nav-item nav-link" id="two-tab" data-toggle="tab" href="#nav-two" role="tab" aria-controls="nav-two" aria-selected="false">Pending Orders</a>
                             <a class="nav-item nav-link" id="three-tab" data-toggle="tab" href="#nav-three" role="tab" aria-controls="nav-three" aria-selected="false">Confirm Orders</a>
+                            
+                            <a class="nav-item nav-link" id="four-tab" data-toggle="tab" href="#nav-four" role="tab" aria-controls="nav-three" aria-selected="false">Order History</a>
+                            
+                            <a class="nav-item nav-link" id="five-tab" data-toggle="tab" href="#nav-five" role="tab" aria-controls="nav-three" aria-selected="false">Payment History</a>
                         </div>
                     </nav>
                     <div class="tab-content" id="nav-tabContent">
@@ -153,6 +157,43 @@
                         </div>
                         <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="three-tab">
                             <p>Confirm oreder content</p>
+                        </div>
+                         <div class="tab-pane fade" id="nav-four" role="tabpanel" aria-labelledby="three-tab">
+                            <p>order history content</p>
+                        </div>
+                         <div class="tab-pane fade" id="nav-five" role="tabpanel" aria-labelledby="three-tab">
+                            <div class="row pt-5">
+                                 <div class="col-md-12 mb-4">
+                                    <table class="table">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th scope="col">Order Id </th>
+                                                <th scope="col">Customer Name</th>
+                                                <th scope="col">Payment Status</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody class="border-bottom">
+                                            <tr>
+                                                <td>1111</td>
+                                                <td>Customer Name</td>
+                                                <td class="text-danger">Failed</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2222</td>
+                                                <td>Customer Name</td>
+                                                <td class="text-success">Completed</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3333</td>
+                                                <td>Customer Name</td>
+                                                <td class="text-warning">Pending</td>
+                                            </tr>
+                                       
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
