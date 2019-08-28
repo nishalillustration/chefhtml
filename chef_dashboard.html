@@ -149,7 +149,104 @@
                         </div>
                         <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="two-tab">
 
-                            <p> Pending ordrs content</p>
+                             <div class="row pt-5">
+
+                                <div class="col-md-6  mb-4">
+                                    <p class="mb-1">Order No: <b>#1111</b></p>
+                                    <p class="mb-1">Date: <b>21-12-2019</b> <span class="ml-4">Time: <b>11:30 pm</b></span></p>
+                                </div>
+                                <div class="col-md-6 text-md-right">
+                                    <h4 class="mb-4">Customer Name</h4>
+                                </div>
+                                <div class="col-md-12 mb-4">
+                                    <table class="table">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th scope="col">Dishes</th>
+                                                <th scope="col">Serve Size</th>
+                                                <th scope="col">Cost</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody class="border-bottom">
+                                            <tr>
+                                                <td>Ghee Rice</td>
+                                                <td>10</td>
+                                                <td>12</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Chicken Biriyani</td>
+                                                <td>4</td>
+                                                <td>12</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mutton Stew</td>
+                                                <td>4</td>
+                                                <td>10</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Total</b></td>
+                                                <td><b>18</b></td>
+                                                <td><b>34</b></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+
+                                <div class="col-md-12 mb-4">
+                                    <div class="alert-info p-5">
+                                        <p>Ingredient Provide by the<b> Customer</b></p>
+                                        <p class="mb-0">Total time for Preparation: <b>2 hrs 30 min</b></p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-12 text-right">
+                                    <a href="" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">Cancel</a> <a href="" class="btn btn-success">Accept </a>
+                                </div>
+                                <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Reason for Cancel</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="mb-3">
+          
+      
+       <div class="custom-control custom-radio">
+  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+  <label class="custom-control-label" for="customRadio1">Won't Available on that date</label>
+</div>
+  <div class="custom-control custom-radio">
+  <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+  <label class="custom-control-label" for="customRadio2">Won't Available on that Time</label>
+</div>
+   <div class="custom-control custom-radio">
+  <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+  <label class="custom-control-label" for="customRadio3">Couldn't find the Ingredients</label>
+</div>
+   <div class="custom-control custom-radio">
+  <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+  <label class="custom-control-label" for="customRadio4">Others</label>
+</div></div>
+
+       <div class="form-group">
+    <label for="exampleFormControlTextarea1">Type your reason</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="three-tab">
                             <div class="row pt-5">
@@ -184,9 +281,10 @@
                                         <h5>Review</h5>
                                         <p class="text-red"><i class="icon ion-md-star"></i> <i class="icon ion-md-star"></i> <i class="icon ion-md-star"></i> <i class="icon ion-md-star"></i> <i class="icon ion-md-star-outline"></i></p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloribus! Totam accusamus, amet. Est nulla quia itaque error, pariatur repellendus! Voluptatem, magnam, minima. Culpa temporibus adipisci, illum neque, vero cupiditate.</p>
-                                       <div class="custom-control custom-checkbox">
-  <input type="checkbox" class="custom-control-input" id="customCheck1">
-  <label class="custom-control-label" for="customCheck1">Show in Public</label>
+      
+                                   <div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitch1">
+  <label class="custom-control-label" for="customSwitch1">Show in Public</label>
 </div>
                                     </div>
 
@@ -199,9 +297,9 @@
                                          <h5>Review</h5>
                                          <p class="text-red"><i class="icon ion-md-star"></i> <i class="icon ion-md-star"></i> <i class="icon ion-md-star"></i> <i class="icon ion-md-star"></i> <i class="icon ion-md-star-outline"></i></p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloribus! Totam accusamus, amet. Est nulla quia itaque error, pariatur repellendus! Voluptatem, magnam, minima. Culpa temporibus adipisci, illum neque, vero cupiditate.</p>
-                                       <div class="custom-control custom-checkbox">
-  <input type="checkbox" class="custom-control-input" id="customCheck2">
-  <label class="custom-control-label" for="customCheck2">Show in Public</label>
+                   <div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitch2">
+  <label class="custom-control-label" for="customSwitch2">Show in Public</label>
 </div>
                                     </div>
 
