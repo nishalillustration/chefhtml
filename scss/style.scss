@@ -4,9 +4,11 @@ body {
     background: #fff;
     font-family: 'Montserrat', sans-serif;
 }
-.f-500{
+
+.f-500 {
     font-weight: 500;
 }
+
 p {
     font-size: 15px;
 }
@@ -69,7 +71,6 @@ h6 {
     }
 }
 
-
 a {
     text-decoration: none;
 
@@ -131,7 +132,7 @@ header {
     }
 
     .navbar-brand {
-        width: 100px;
+        width: 120px;
     }
 }
 
@@ -153,9 +154,6 @@ header {
             padding: 10px;
         }
     }
-
-
-
 }
 
 .box-shadow {
@@ -234,6 +232,7 @@ header {
 .howit-icon-wrap {
     text-align: center;
     margin: 0 0 30px;
+    transition: all 0.3s ease-in-out;
 
     h4 {
         padding: 22px 0;
@@ -248,11 +247,11 @@ header {
 }
 
 .howit-img-block {
-//    width: 86px;
-//    height: 86px;
-//    border: 1px solid #bf2026;
-//    background: #fff;
-//    border-radius: 50%;
+    //    width: 86px;
+    //    height: 86px;
+    //    border: 1px solid #bf2026;
+    //    background: #fff;
+    //    border-radius: 50%;
     padding: 10px;
     margin: 0 auto;
     display: block;
@@ -264,7 +263,12 @@ header {
 }
 
 .howit-icon-wrap:hover .howit-img-block {
-    background: #bf2026;
+    //    background: #bf2026;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+
+    transition: all 0.3s ease-in-out;
 }
 
 .howit-icon-wrap:hover .howit-svg path {
@@ -541,6 +545,7 @@ footer.main-block {
     background: #e61d1d;
     border-color: #e61d1d;
 }
-.owl-nav{
+
+.owl-nav {
     display: none;
 }
