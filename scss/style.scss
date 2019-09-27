@@ -469,7 +469,8 @@ footer.main-block {
         transform: scale(0.95);
     }
 
-    input[type=text],input[type=password] {
+    input[type=text],
+    input[type=password] {
         background-color: #f6f6f6;
         border: none;
         color: #0d0d0d;
@@ -490,12 +491,14 @@ footer.main-block {
         border-radius: 5px 5px 5px 5px;
     }
 
-    input[type=text]:focus, input[type=password]:focus {
+    input[type=text]:focus,
+    input[type=password]:focus {
         background-color: #fff;
         border-bottom: 2px solid #bf2026;
     }
 
-    input[type=text]:placeholder, input[type=password]:placeholder {
+    input[type=text]:placeholder,
+    input[type=password]:placeholder {
         color: #cccccc;
     }
 
@@ -548,4 +551,73 @@ footer.main-block {
 
 .owl-nav {
     display: none;
+}
+
+.dish-card-hold {
+    position: relative;
+    padding: 5px;
+    border: 1px solid #ccc;
+
+    .dish-image {
+        position: relative;
+        min-height: 235px;
+        max-height: 235px;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+
+    .dish-type {
+
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 3px 5px;
+        border-radius: 3px;
+        color: #fff;
+    }
+
+    .veg {
+        background: #00a51f;
+    }
+
+    .non-veg {
+        background: #e10000;
+    }
+
+    .dish-ingredients {
+        ul {
+
+
+            li {
+                display: inline-block;
+                margin-right: 4px;
+                margin-bottom: 4px;
+                background: #ccc;
+                padding: 2px 4px;
+                border-radius: 5px;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .dish-hour {
+
+        ul {
+            margin: 0;
+
+            li {
+                width: 49%;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.list-hover {
+    border-bottom: 1px solid #ccc;
+    padding: 2rem 0;
+
+    &:hover {
+        border-bottom: 1px solid #ff0000;
+    }
 }
